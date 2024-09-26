@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: "static", // Đảm bảo bạn đang sử dụng target 'server'
+  target: "server", // Đảm bảo bạn đang sử dụng target 'server'
   nitro: {
     preset: "vercel",
   },
