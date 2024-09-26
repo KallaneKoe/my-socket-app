@@ -1,7 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target:  'static' ,// Đảm bảo bạn đang sử dụng target 'server'
-  
+  nitro: {
+    preset: 'vercel',
+  }
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'my-socket-app',
@@ -45,7 +47,7 @@ export default {
   server: {
     port: 3000, // Cổng cho Nuxt.js
     host: '0.0.0.0' // Để có thể truy cập từ bên ngoài
- 
+
    }
 
  }
